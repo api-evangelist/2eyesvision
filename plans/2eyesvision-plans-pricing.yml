@@ -1,0 +1,22 @@
+generated: '2026-09-05'
+method: searched
+source: https://www.2eyesvision.com/
+plan_count: 0
+note: >-
+  2EyesVision publishes no pricing page and no plans of any kind. SimVis Gekko is a
+  CE/UKCA/FCC-marked clinical instrument sold through the company and a network of
+  specialised resellers in 10 territories; commercial terms are handled through
+  https://www.2eyesvision.com/contact/ (HTTP 200) and never quoted publicly. There is
+  also no API and therefore no API pricing to record. The site's own llms.txt index
+  (240 lines, every public page) contains no pricing, plan or tier page.
+plans: []
+evidence:
+- url: https://www.2eyesvision.com/
+  status: 200
+  note: no pricing link in site navigation
+- url: https://www.2eyesvision.com/llms.txt
+  status: 200
+  note: provider-generated full page index - no pricing page listed
+- url: https://www.2eyesvision.com/contact/
+  status: 200
+  note: contact form stands in for any commercial terms

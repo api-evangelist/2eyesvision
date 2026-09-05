@@ -64,5 +64,17 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-2Eyes Vision is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/2eyesvision
+2EyesVision (2Eyes Vision, S.L.) is a Madrid, Spain based ophthalmic and optical technologies
+company, founded as a spin-off of the Spanish National Research Council (CSIC) out of the Visual
+Optics and Biophotonics Lab. It designs, manufactures and sells SimVis Gekko, a binocular visual
+simulator built on tunable liquid-lens temporal multiplexing that lets a patient experience premium
+presbyopia and cataract corrections before implantation or refractive surgery.
+
+**No API surface.** 2EyesVision publishes no public API, SDK, webhook surface or developer program.
+The product is an end-user clinical instrument controlled from a wireless iPad. The only
+machine-readable document the company serves is an SEO-generated `llms.txt`, captured verbatim in
+`llms/`. See the `x-coverage` block in `apis.yml` for the probes behind that finding.
+
+- Website: https://www.2eyesvision.com/
+- Surfaced via the API Evangelist harvest backlog (source: secondary-market,
+  https://equityzen.com/company/2eyesvision)

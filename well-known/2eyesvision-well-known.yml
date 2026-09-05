@@ -1,0 +1,76 @@
+generated: '2026-09-05'
+method: probed
+source: https://www.2eyesvision.com/.well-known/
+note: >-
+  Every named discovery path was probed on both hosts the record knows. There are no
+  other hosts to probe: 2EyesVision registers no API baseURL, ships no OpenAPI (so there
+  are no servers[] hosts), and api./developer./docs. subdomains do not resolve (DNS
+  NXDOMAIN, curl exit 6). Nothing returned a document, so NO WellKnown or SecurityTxt
+  pointer is emitted - this file records a verified absence, not a presence.
+hit_count: 0
+path_echo_control: passed
+hosts:
+- host: https://www.2eyesvision.com
+  note: canonical host; apex 301-redirects here
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/apis.json
+    status: 404
+  - path: /apis.json
+    status: 404
+  - path: /apis.yml
+    status: 404
+  - path: /.well-known/aauth-resource.json
+    status: 404
+  - path: /.well-known/ucp.json
+    status: 404
+  - path: /.well-known/acp.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/2eyesvision-negative-control-7f3ab91c.json
+    status: 404
+    note: negative control - a 404 here proves the host is not path-echoing
+- host: https://2eyesvision.com
+  note: apex; every probed path answered 301 to the www host, which was probed in full above
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/oauth-protected-resource
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301
+  - path: /.well-known/apis.json
+    status: 301
+  - path: /apis.json
+    status: 301
+  - path: /apis.yml
+    status: 301
+  - path: /.well-known/aauth-resource.json
+    status: 301
+  - path: /.well-known/agent-card.json
+    status: 301
+  - path: /.well-known/agent.json
+    status: 301
+  - path: /.well-known/2eyesvision-negative-control-7f3ab91c.json
+    status: 301
+    note: negative control
