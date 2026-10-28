@@ -64,17 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-2EyesVision (2Eyes Vision, S.L.) is a Madrid, Spain based ophthalmic and optical technologies
-company, founded as a spin-off of the Spanish National Research Council (CSIC) out of the Visual
-Optics and Biophotonics Lab. It designs, manufactures and sells SimVis Gekko, a binocular visual
-simulator built on tunable liquid-lens temporal multiplexing that lets a patient experience premium
-presbyopia and cataract corrections before implantation or refractive surgery.
+2EyesVision (2Eyes Vision, S.L.) is a Madrid, Spain based ophthalmic and optical technologies company, founded as a spin-off of the Spanish National Research Council (CSIC) out of the Visual Optics and Biophotonics Lab. It designs, manufactures and sells SimVis Gekko, a binocular visual simulator built on tunable liquid-lens temporal multiplexing that lets a patient experience premium presbyopia and cataract corrections - monofocal, EDOF, trifocal, monovision and mix-and-match intraocular lens designs - before implantation or refractive surgery. The device is CE, UKCA and FCC marked, is controlled from a wireless iPad, is cloud-connected for remote app and lens-simulation updates, and is distributed across 18 countries on 4 continents. 2EyesVision publishes no public API, SDK, webhook surface or developer program: the product is an end-user clinical instrument, and the only machine-readable document it serves is an SEO-generated llms.txt.
 
-**No API surface.** 2EyesVision publishes no public API, SDK, webhook surface or developer program.
-The product is an end-user clinical instrument controlled from a wireless iPad. The only
-machine-readable document the company serves is an SEO-generated `llms.txt`, captured verbatim in
-`llms/`. See the `x-coverage` block in `apis.yml` for the probes behind that finding.
+**Areas:** Company · Medical Devices · Ophthalmology · Vision Care · Optics · Health · Simulation · Spain
 
-- Website: https://www.2eyesvision.com/
-- Surfaced via the API Evangelist harvest backlog (source: secondary-market,
-  https://equityzen.com/company/2eyesvision)
+## 2Eyes Vision on APIs.io
+
+Everything profiled for 2Eyes Vision is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/2eyesvision/](https://apis.io/providers/2eyesvision/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [2Eyesvision Domain Security](https://apis.io/security/2eyesvision/2eyesvision-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [2Eyesvision Plans Pricing](https://apis.io/plans/2eyesvision/2eyesvision-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.2eyesvision.com/)
+- [Support](https://www.2eyesvision.com/contact/)
+- [Blog](https://www.2eyesvision.com/2eyes-knowledge-hub/)
+- [Privacy policy](https://www.2eyesvision.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 8.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/2eyesvision/](https://apis.io/providers/2eyesvision/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 2Eyes Vision: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/2eyesvision/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
